@@ -68,7 +68,12 @@ img {
 
 .listing-preview a {
   position: relative; }
-
+.listing-preview h2 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 50%;
+}
 @media (max-width: 991px) {
   #showcase {
     padding-top: 4rem; }
